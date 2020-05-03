@@ -45,13 +45,37 @@ class MyHomePage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Card(
+                        color: Colors.purpleAccent.withOpacity(0.3),
                         child: ListTile(
-                          leading: Icon(Icons.mail),
+                          leading: Icon(
+                            Icons.person,
+                            color: Colors.white,
+                          ),
+                          title: Text(
+                            '   Mahmoud Araby',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          subtitle: (Text(
+                            '   Name',
+                            style: TextStyle(color: Colors.white),
+                          )),
                         ),
                       ),
                       Card(
+                        color: Colors.purpleAccent.withOpacity(0.3),
                         child: ListTile(
-                          leading: Icon(Icons.mail),
+                          leading: Icon(
+                            Icons.phone,
+                            color: Colors.white,
+                          ),
+                          title: Text(
+                            '   01150056420',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          subtitle: (Text(
+                            '   Phone',
+                            style: TextStyle(color: Colors.white),
+                          )),
                         ),
                       ),
                     ],
