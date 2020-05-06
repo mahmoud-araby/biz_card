@@ -1,6 +1,9 @@
 # bizcard
 
-A new Flutter application.
+Flutter Android Application to show you information and contacts
+
+
+<img src="https://github.com/mahmoud-araby/biz_card/blob/master/Screenshot_2020-05-06-13-47-37-945_com.araby.bizcard.jpg">
 
 ## Getting Started
 
